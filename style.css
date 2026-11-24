@@ -1,0 +1,287 @@
+/* ElectroNova - External CSS stylesheet */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #26364a;
+    background-color: #ffffff;
+    line-height: 1.6;
+}
+
+a {
+    color: #2459a6;
+    text-decoration: none;
+}
+
+header {
+    background-color: #172b46;
+    padding: 18px 6%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.logo span {
+    color: #8db8ff;
+}
+
+nav a {
+    color: #ffffff;
+    margin-left: 18px;
+    font-size: 14px;
+}
+
+nav a:hover {
+    color: #8db8ff;
+    text-decoration: underline;
+}
+
+.hero {
+    background-color: #f1f5fb;
+    padding: 55px 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.hero-content {
+    width: 50%;
+}
+
+.hero h1 {
+    color: #172b46;
+    font-size: 42px;
+    line-height: 1.2;
+}
+
+.hero h1 span {
+    color: #177ddd;
+}
+
+.hero img {
+    width: 55%;
+    height: 270px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.small-title {
+    color: #2459a6;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.button {
+    display: inline-block;
+    background-color: #2459a6;
+    color: #ffffff;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: 1px solid #2459a6;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #172b46;
+}
+
+.section {
+    padding: 42px 8%;
+}
+
+.section h2 {
+    color: #172b46;
+    font-size: 28px;
+    margin-top: 0;
+}
+
+.intro {
+    color: #6c7888;
+    margin-bottom: 22px;
+}
+
+.category-list {
+    display: flex;
+    gap: 18px;
+    flex-wrap: wrap;
+}
+
+.category-card {
+    display: block;
+    width: 23%;
+    border: 1px solid #dce3ed;
+    border-radius: 8px;
+    padding: 12px;
+    color: #172b46;
+    background-color: #ffffff;
+}
+
+.category-card:hover {
+    border-color: #2459a6;
+}
+
+.category-card img {
+    width: 100%;
+    height: 145px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.category-card h3 {
+    margin: 8px 0 2px;
+}
+
+.category-card p {
+    color: #6c7888;
+    margin: 0;
+    font-size: 14px;
+}
+
+.category-heading {
+    background-color: #f1f5fb;
+    padding: 38px 8%;
+}
+
+.category-heading h1 {
+    color: #172b46;
+    font-size: 38px;
+    margin: 5px 0;
+}
+
+.category-heading p {
+    color: #6c7888;
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.product-card {
+    width: 31%;
+    padding: 15px;
+    border: 1px solid #dce3ed;
+    border-radius: 8px;
+    background-color: #ffffff;
+}
+
+.product-card img {
+    width: 100%;
+    height: 170px;
+    object-fit: contain;
+    background-color: #f1f5fb;
+    border-radius: 5px;
+}
+
+.product-card h3 {
+    color: #172b46;
+    margin-bottom: 5px;
+}
+
+.product-card p {
+    color: #6c7888;
+    font-size: 14px;
+}
+
+.price {
+    color: #2459a6 !important;
+    font-size: 20px !important;
+    font-weight: bold;
+}
+
+.contact {
+    background-color: #f1f5fb;
+}
+
+form {
+    max-width: 600px;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #dce3ed;
+    border-radius: 8px;
+}
+
+label {
+    display: block;
+    margin: 12px 0 5px;
+    font-weight: bold;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #cbd5e1;
+    border-radius: 4px;
+    font-family: Arial, sans-serif;
+}
+
+footer {
+    background-color: #172b46;
+    color: #ffffff;
+    text-align: center;
+    padding: 22px;
+}
+
+footer a {
+    color: #9fc1ff;
+}
+
+/* Responsive design */
+@media (max-width: 900px) {
+    header {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    nav a {
+        margin: 0 8px;
+    }
+
+    .category-card {
+        width: 47%;
+    }
+
+    .product-card {
+        width: 47%;
+    }
+}
+
+@media (max-width: 600px) {
+    .hero {
+        flex-direction: column;
+        padding: 32px 6%;
+    }
+
+    .hero-content, .hero img {
+        width: 100%;
+    }
+
+    .hero h1 {
+        font-size: 32px;
+    }
+
+    .section {
+        padding: 30px 6%;
+    }
+
+    .category-card, .product-card {
+        width: 100%;
+    }
+
+    nav {
+        text-align: center;
+        line-height: 2.2;
+    }
+}
