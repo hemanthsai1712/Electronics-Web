@@ -17,10 +17,9 @@ The same method is used for laptops.html, audio.html and accessories.html.
 All pages are part of one website and share the same navigation and stylesheet.
 
 HOW TO RUN
-1. Extract the ZIP file.
-2. Keep all HTML files and style.css in the same folder.
-3. Double-click index.html to open the website in a browser.
-4. Click any category to open its separate product page.
+1. Keep all HTML files and style.css in the same folder.
+2. Double-click index.html to open the website in a browser.
+3. Click any category to open its separate product page.
 
 SYLLABUS APPROACH
 - HTML: document structure, headings, paragraphs, links, images, lists,
@@ -28,7 +27,7 @@ SYLLABUS APPROACH
 - CSS: external stylesheet, element/class selectors, colors, backgrounds,
   font and text properties, width, spacing, borders, box model, Flexbox,
   hover pseudo-class and responsive media queries.
-- No JavaScript, React, frameworks, database or backend are used.
+- Not yet JavaScript, React, frameworks, database or backend are used.
 
 NOTE
 Product names, prices and descriptions are sample content.
